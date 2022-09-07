@@ -54,10 +54,17 @@ model: 0"
 
 where :
 
-`velocity` is the linear velocity of the body
+`velocity`: the linear velocity of the body
 
-`delta` is the steering angle
+`delta`: the steering angle
 
-`time` is the time of motion
+`time`: the time of motion
 
-`model` is the model simulated `{0 : forward steering, 1 : backward steering, 2 : both models }`
+`model`: the model simulated `{0 : forward steering, 1 : backward steering, 2 : both models }`
+
+## Parameters
+
+`/Lengths/Front`: the distance between CG and front wheel
+
+`/Lengths/Rear`: the distance between CG and rear wheel
+
