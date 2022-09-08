@@ -41,7 +41,7 @@ def move_front(vel,delta,time_interval,length_f,length_r):
 
 def move_rear(vel,delta,time_interval,length_f,length_r):
     ##### CALCULATES BETA ANGLE #####
-    def calc_beta(length_r,length_f,delta) :
+    def calc_beta(length_r,length_f,delta) : 
         beta = atan(((length_f) * tan(delta))/(length_f+length_r))
         return beta
 
