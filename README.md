@@ -23,11 +23,11 @@ $$2. \space\space tan(\beta)=\frac{L_F}{R}$$
 
 from 1 and 2 :
 
-$$tan(\beta)=\frac{tan(\delta)\cdot (L_F+L_R)}{L_F}$$
+$$tan(\beta)=\frac{tan(\delta)\cdot (L_F)}{L_F+L_R}$$
 
 and :
 
-$$\dot{\psi} = \frac{\upsilon \cdot sin(\beta)}{L_R}$$
+$$\dot{\psi} = \frac{\upsilon \cdot sin(\beta)}{L_F}$$
 
 
 ## Setup :
