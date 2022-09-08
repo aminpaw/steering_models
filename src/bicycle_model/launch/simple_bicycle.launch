@@ -1,4 +1,0 @@
-<launch>
-<rosparam file="$(find bicycle_model)/config/settings.yaml" />
-<node name = "front_bicycle_model" pkg = "bicycle_model" type = "steering_model.py"/>
-</launch>

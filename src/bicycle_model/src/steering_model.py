@@ -42,12 +42,12 @@ def move_front(vel,delta,time_interval,length_f,length_r):
 def move_rear(vel,delta,time_interval,length_f,length_r):
     ##### CALCULATES BETA ANGLE #####
     def calc_beta(length_r,length_f,delta) :
-        beta = atan(((length_f+length_r) * tan(delta))/(length_f))
+        beta = atan(((length_f) * tan(delta))/(length_f+length_r))
         return beta
 
     ##### CALCULATES ANGULAR VELOCITY #####
     def calc_theta_dot(vel,beta,delta,length_f,length_r):
-        theta_dot = (vel*sin(beta))/(length_r)
+        theta_dot = (vel*sin(beta))/(length_f)
         return theta_dot
 
     ##### INITIAL STATE #####
